@@ -11,10 +11,10 @@ public class testAdressePostale {
         adr1.codePostal = 34000;
         adr1.ville = " Montpellier";
         AdressePostale adr2 = new AdressePostale();
-        adr1.numeroRue = 7;
-        adr1.libelleRue = "boulevard";
-        adr1.codePostal = 34003;
-        adr1.ville = " Montpellier";
+        adr2.numeroRue = 7;
+        adr2.libelleRue = "boulevard";
+        adr2.codePostal = 34003;
+        adr2.ville = " Montpellier";
 	}
 
 }
