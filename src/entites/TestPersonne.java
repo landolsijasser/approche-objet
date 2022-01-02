@@ -4,11 +4,12 @@ public class TestPersonne {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		personne per1 = new personne("jasser", "landolsi");
+		Personne per1 = new Personne("jasser", "landolsi");
 		
-		personne per2 = new personne("ahmed", "tayari");
+		Personne per2 = new Personne("ahmed", "tayari");
 		
-System.out.println(per1);
+	per1.affichageIdentite();
+	per2.affichageIdentite();
 
 	}
 
